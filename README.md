@@ -1,16 +1,25 @@
-# funby
+# Base Flutter Project
 
-A new Flutter project.
+This is a stated MVVM flutter project, with internationalization, project structur and initial base clases fot api reponse object and list, view models an virew.
 
-## Getting Started
+### comomand line 
 
-This project is a starting point for a Flutter application.
+Generate release ``` release``` ```  debug  ```
+```bash
+flutter run --release
+``` 
 
-A few resources to get you started if this is your first Flutter project:
+Generate class ``` build``` ```  watch  ```
+```bash
+flutter pub run build_runner build 
+``` 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Change app icon](https://pub.dev/packages/flutter_launcher_icons)
+```bash
+flutter pub run flutter_launcher_icons:main
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Change app name](https://pub.dev/packages/flutter_app_name)
+```bash
+flutter pub run flutter_app_name
+```
