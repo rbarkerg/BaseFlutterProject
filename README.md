@@ -1,6 +1,6 @@
 # Base Flutter Project
 
-This is a stated MVVM flutter project, with internationalization, project structur and initial base clases fot api reponse object and list, view models an virew.
+This is a stated MVVM flutter project, with internationalization, project structur and initial base clases fot api reponse object and list, models, view models and view.
 
 ### comomand line 
 
